@@ -44,6 +44,13 @@ npm install
 DATABASE_URL="postgresql://postgres:postgres@localhost:5432/checklist"
 NEXTAUTH_URL="http://localhost:3000"
 NEXTAUTH_SECRET="your-secret-key"
+
+# Email server settings
+EMAIL_SERVER_HOST="smtp.gmail.com"
+EMAIL_SERVER_PORT=587
+EMAIL_SERVER_USER="your-email@gmail.com"
+EMAIL_SERVER_PASSWORD="your-app-password"
+EMAIL_FROM="your-email@gmail.com"
 ```
 
 4. Настройте базу данных:
